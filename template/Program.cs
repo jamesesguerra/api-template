@@ -2,7 +2,7 @@
 // WebApplication.CreateBuilder creates a new WebApplicationBuilder class and passes the args
 // At this point, no WebApplication instance is created yet, because it's a static method
 var builder = WebApplication.CreateBuilder(args); 
-builder.WebHost.UseUrls("http://0.0.0.0:8080");
+builder.WebHost.UseUrls("http://0.0.0.0:8082");
 // Add services to the container.
 // Adds service descriptors to the HostApplicationBuilder's IServiceCollection (a list of instructions on how to construct services)
 builder.Services.AddControllers();
